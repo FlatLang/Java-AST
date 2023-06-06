@@ -1,9 +1,9 @@
 package flat/ast/java
 
 testable class {
-  test `can create`() {
-    let value = Ast()
+    test `can create`() {
+        let value = Ast()
 
-    expect(value).toNotBe(null)
-  }
+        expect(value).toNotBe(null)
+    }
 }
